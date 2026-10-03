@@ -1,5 +1,5 @@
 import {Composition} from 'remotion';
-import {Instagram, DURATION} from './Instagram';
+import {Instagram, DURATION, WIDTH, HEIGHT} from './Instagram';
 
 export const Root: React.FC = () => (
   <Composition
@@ -7,7 +7,7 @@ export const Root: React.FC = () => (
     component={Instagram}
     durationInFrames={DURATION}
     fps={30}
-    width={1920}
-    height={1080}
+    width={WIDTH}
+    height={HEIGHT}
   />
 );
